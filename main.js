@@ -28,10 +28,6 @@ if(result.value =="0" && val == "0"){
     result.value += val;
 }
 }
-//小数点キー押下
-//function decimal_click(val){
-    //result.value = result.value.slice(0, -1) + val;
-//}
 // 演算子キー押下
 function ope_click(val){
 if(is_calculator)is_calculator = false;
